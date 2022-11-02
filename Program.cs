@@ -4,7 +4,6 @@
     {
         string name = GetName();
         int winningNumber = GetWinningNumber();
-        Console.WriteLine(winningNumber);
         GetGuess(winningNumber, name);
     }
 
