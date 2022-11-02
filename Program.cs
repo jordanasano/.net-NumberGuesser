@@ -6,7 +6,6 @@
         int winningNumber = GetWinningNumber();
         Console.WriteLine(winningNumber);
         GetGuess(winningNumber, name);
-
     }
 
     static string GetName()
@@ -14,6 +13,7 @@
         Console.WriteLine("What is your name?");
 
         string name = Console.ReadLine();
+
         return name;
     }
 
@@ -21,6 +21,7 @@
     {
         Random rand = new Random();
         int winningNumber = rand.Next(1, 100);
+
         return winningNumber;
     }
 
